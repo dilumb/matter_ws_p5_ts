@@ -1,0 +1,32 @@
+{
+  "name": "matter_ws_p5_ts",
+  "version": "1.0.0",
+  "description": "Server-side Matter.js with WebSockets, P5, and Typescript",
+  "type": "module",
+  "main": "./dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "matter-js",
+    "p5",
+    "websocket",
+    "typescript",
+    "server-side",
+    "physics",
+    "engine"
+  ],
+  "author": "Dilum Bandara",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/matter-js": "^0.14.8",
+    "@types/p5": "^0.9.1",
+    "@types/socket.io": "^2.1.12"
+  },
+  "dependencies": {
+    "matter-js": "^0.15.0",
+    "p5": "^1.2.0",
+    "socket.io": "^3.0.5"
+  }
+}
